@@ -1,6 +1,3 @@
-forname = input('What is your forname?\n')
-surname = input('What is your surname?\n')
-birthdate = input('When did you born?\n')
-print(forname)
-print(surname)
-print(birthdate)
+from os import scandir
+jmeno = input()
+vek = int(input())
